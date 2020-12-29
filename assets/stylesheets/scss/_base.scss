@@ -1,0 +1,46 @@
+/*** Project Meta ***/
+
+/* general - line __ */
+
+/* header - line __ */
+
+/* main content - line __ */
+
+/* footer - line __ */
+
+/** GENERAL **/
+
+@use 'colors';
+@use 'typography';
+@use 'functions';
+
+.html,
+.body {
+  font-family: typography.$font-stack;
+  font-size: typography.$font-size;
+}
+
+.body {
+  position: relative;
+	// background-color: functions.tint(colors.$cyan, 94%);
+	background-image: linear-gradient(180deg, functions.tint(colors.$cyan, 94%) 10%, white 90%);
+	// background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+	// background-position: 100% 100%;
+}
+
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container {
+	max-width: 90rem;
+	width: 94%;
+	margin: 0 auto;
+}

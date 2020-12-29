@@ -1,0 +1,11 @@
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+// @function dark($color, $percentage) {
+// 	@return darken($color, $percentage);
+// }
+
+// @function transparent($color, $percentage) {
+// 	@return transparentize($color, $percentage);
+// }
