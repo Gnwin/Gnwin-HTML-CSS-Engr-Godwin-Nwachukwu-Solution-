@@ -1,11 +1,12 @@
+let dropdownState = false;
+let dropdown = document.querySelector('.hamburger-dropdown');
+let navicon = document.getElementById('nav-icon1');
 
-	let navicon = document.getElementById('nav-icon1');
-	// console.log(navicon);
-	navicon.addEventListener('click', function(){
-		this.classList.toggle('open');
-	})
-
-
-// window.onload
-
-// alert('js connected')
+navicon.addEventListener('click', function(){
+	this.classList.toggle('open');
+	dropdownState = !dropdownState;
+	if (dropdownState) {
+		dropdown.classList.toggle('block');
+	}
+	dropdownState = !dropdownState;
+})
