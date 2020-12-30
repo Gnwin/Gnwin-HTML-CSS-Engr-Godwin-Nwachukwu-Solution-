@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Gnwin/Godwin-Eraani-Next-Web-project/nextweb/index.html)
+[Live Demo Link](https://raw.githack.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/index.html)
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Chrome Browser
+- View only on Chrome Browser
 - Text editor of your choice.
 - npm has to be installed in your system.
 - install the following linters on your IDE;
@@ -51,8 +51,9 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 > Clone the repo.
-> Open the index.html from your browser to view or run live server extension in your text editor
-> Use Chrome as your browser to view this project
+> run `npm run sass` to enable sass to watch files.
+> Open the index.html from your browser to view or run live server extension in your text editor.
+> Use Chrome as your browser to view this project.
 
 ### Run tests
 
@@ -79,7 +80,7 @@ html5validator index.html
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gnwin/Godwin-Eraani-Next-Web-project/issues).
+Feel free to check the [issues page](https://github.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/issues).
 
 ## Show your support
 
