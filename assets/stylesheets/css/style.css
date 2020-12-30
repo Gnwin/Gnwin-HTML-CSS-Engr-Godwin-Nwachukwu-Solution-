@@ -282,7 +282,7 @@
   display: none;
   position: absolute;
   bottom: 0;
-  width: 80%;
+  width: 71%;
   right: 0;
   z-index: -23;
 }
@@ -386,9 +386,6 @@
   .data-storage .data-storage-div .data-storage-pic .data-storage-img {
     width: 100%;
   }
-  .data-storage .data-storage-content {
-    padding: 2rem;
-  }
   .data-storage .data-storage-content .data-storage-body {
     line-height: 1.3;
   }
@@ -470,7 +467,6 @@
   }
   .data-storage .data-storage-content .data-storage-heading {
     font-size: 161.875%;
-    font-weight: bold;
     margin-bottom: 1rem;
   }
   .data-storage .data-storage-content .data-storage-body {
@@ -537,14 +533,8 @@
   .data-storage .data-storage-div .data-storage-img {
     width: 100%;
   }
-  .data-storage .data-storage-content {
-    width: 50%;
-    padding: 1.3rem;
-  }
   .data-storage .data-storage-content .data-storage-heading {
     font-size: 161.875%;
-    font-weight: bold;
-    margin-bottom: 1rem;
   }
   .data-storage .data-storage-content .data-storage-body {
     font-size: 114.625%;
@@ -618,7 +608,6 @@
   }
   .data-storage .data-storage-content .data-storage-heading {
     font-size: 262.5%;
-    font-weight: bold;
     margin-bottom: 2.5rem;
   }
   .data-storage .data-storage-content .data-storage-body {
