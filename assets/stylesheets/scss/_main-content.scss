@@ -150,62 +150,73 @@
 /* carousel */
 
 .carousel {
-	padding-top: 50%;
-	position: relative;
-	border-radius: 50px;
-	margin-bottom: 8rem;
+	display: none;
+}
+
+// .carousel {
+	// height: 10rem;
+	// position: relative;
+	// border-radius: 50px;
+	// margin-bottom: 8rem;
 	// background-image: linear-gradient(-90deg, functions.tint(colors.$light-purple, 50%) 5%, white 95%);
 	// opacity: 0.7;
-	.carousel-primary {
+	.carousel-res-primary {
 		background-color: colors.$light-purple;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
+		// position: absolute;
+		// width: 100%;
+		// height: 100%;
+		// top: 0;
 		border-radius: 50px;
-		padding: 8%;
-		z-index: 54;
-		.carousel-heading {
+		padding: 5%;
+		margin-bottom: 7rem;
+		// height: 10rem;
+		.carousel-res-heading {
 			color: white;
 			font-size: 2rem;
 			margin-bottom: 5%;
 			font-weight: bold;
 		}
-		.carousel-outer {
+		.carousel-res-outer {
 			display: flex;
 			align-items: center;
 			// width: 4000px;
-			width: 300%;
-			.carousel-inner {
+			// width: 300%;
+			width: 50%;
+			margin: 0 auto;
+			// height: 20rem;
+			// overflow: auto;
+			.carousel-res-inner {
 				display: grid;
-				grid-template-columns: repeat(4, 1fr);
+				grid-template-columns: 1fr;
+				grid-auto-rows: auto;
 				gap: 2rem;
-				.slide {
+				.slide-res {
 					background-color: white;
 					display: flex;
+					flex-direction: column;
 					border-radius: 25px;
 					padding: 5%;
-					.carousel-avatar {
-						width: 50%;
-						align-self: start;
-						.avatar {
+					.carousel-res-avatar {
+						width: 70%;
+						align-self: center;
+						.avatar-res {
 							width: 100%;
 							border-radius: 50px;
 						}
 					}
-					.carousel-content {
+					.carousel-res-content {
 						padding: 4%;
 						align-self: start;
-						.carousel-title {
-							font-size: 200%;
+						.carousel-res-title {
+							font-size: 150%;
 							font-weight: bold;
 							padding: 2% 0;
 						}
-						.carousel-job-title {
+						.carousel-res-job-title {
 							padding: 1% 0;
 							color: colors.$light-purple;
 						}
-						.carousel-text {
+						.carousel-res-text {
 							line-height: 1.5;
 							// font-size: 110%;
 						}
@@ -213,12 +224,13 @@
 				}
 			}
 		}
-		.navigation {
+		.navigation-res {
 			display: flex;
 			justify-content: space-between;
 			margin-top: 3%;
-			.dots {
-				.dot {
+			.dots-res {
+				.dot-res {
+					display: block;
 					cursor: pointer;
 					height: 15px;
 					width: 15px;
@@ -233,13 +245,18 @@
 					}
 				}
 			}
-			.arrows {
-				.left {}
-				.right {}
+			.arrows-res {
+				// display: block;
+				.left-res {
+					// display: block;
+				}
+				.right-res {
+					// display: block;
+				}
 			}
 		}
 	}
-}
+// }
 
 @media screen and (min-width: 350px) {
 	.caption-background {
@@ -528,6 +545,108 @@
 			}
 		}
 	}
+
+	/* carousel */
+
+	.carousel-res-primary {
+		display: none;
+	}
+
+	.carousel {
+		display: block;
+	}
+
+.carousel {
+	padding-top: 50%;
+	position: relative;
+	border-radius: 50px;
+	margin-bottom: 8rem;
+	// background-image: linear-gradient(-90deg, functions.tint(colors.$light-purple, 50%) 5%, white 95%);
+	// opacity: 0.7;
+	.carousel-primary {
+		background-color: colors.$light-purple;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		border-radius: 50px;
+		padding: 8%;
+		z-index: 54;
+		.carousel-heading {
+			color: white;
+			font-size: 2rem;
+			margin-bottom: 5%;
+			font-weight: bold;
+		}
+		.carousel-outer {
+			display: flex;
+			align-items: center;
+			// width: 4000px;
+			width: 300%;
+			.carousel-inner {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				gap: 2rem;
+				.slide {
+					background-color: white;
+					display: flex;
+					border-radius: 25px;
+					padding: 5%;
+					.carousel-avatar {
+						width: 50%;
+						align-self: start;
+						.avatar {
+							width: 100%;
+							border-radius: 50px;
+						}
+					}
+					.carousel-content {
+						padding: 4%;
+						align-self: start;
+						.carousel-title {
+							font-size: 200%;
+							font-weight: bold;
+							padding: 2% 0;
+						}
+						.carousel-job-title {
+							padding: 1% 0;
+							color: colors.$light-purple;
+						}
+						.carousel-text {
+							line-height: 1.5;
+							// font-size: 110%;
+						}
+					}
+				}
+			}
+		}
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 3%;
+			.dots {
+				.dot {
+					cursor: pointer;
+					height: 15px;
+					width: 15px;
+					margin: 0 2px;
+					background-color: white;
+					border-radius: 50%;
+					display: inline-block;
+					transition: background-color 0.6s ease;
+					// .active,
+					&:hover {
+						background-color: colors.$pink;
+					}
+				}
+			}
+			.arrows {
+				.left {}
+				.right {}
+			}
+		}
+	}
+}
 }
 
 @media screen and (min-width: 992px) {

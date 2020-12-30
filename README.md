@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- `git clone https://github.com/Gnwin/Godwin-Eraani-Next-Web-project.git`
+- `git clone https://github.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-.git`
 - If dart SASS SCSS is not installed on your global machine, follow the steps below;
 	- > `run npm install -g sass`
 - If you use homebrew (for mac users),
