@@ -4,6 +4,18 @@
 
 /* main-content */
 
+.purple-arrow {
+	width: 20px;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+
+.purple-arrow1 {
+	// width: 20px;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+
 /* caption background */
 
 .caption-background {
@@ -142,6 +154,8 @@
 	position: relative;
 	border-radius: 50px;
 	margin-bottom: 8rem;
+	// background-image: linear-gradient(-90deg, functions.tint(colors.$light-purple, 50%) 5%, white 95%);
+	// opacity: 0.7;
 	.carousel-primary {
 		background-color: colors.$light-purple;
 		position: absolute;
@@ -162,21 +176,26 @@
 			align-items: center;
 			// width: 4000px;
 			width: 300%;
-			// overflow-x: hidden;
 			.carousel-inner {
 				display: grid;
 				grid-template-columns: repeat(4, 1fr);
 				gap: 2rem;
-				// overflow-x: hidden;
 				.slide {
 					background-color: white;
 					display: flex;
 					border-radius: 25px;
 					padding: 5%;
 					.carousel-avatar {
-						.avatar {}
+						width: 50%;
+						align-self: start;
+						.avatar {
+							width: 100%;
+							border-radius: 50px;
+						}
 					}
 					.carousel-content {
+						padding: 4%;
+						align-self: start;
 						.carousel-title {
 							font-size: 200%;
 							font-weight: bold;
@@ -184,12 +203,39 @@
 						}
 						.carousel-job-title {
 							padding: 1% 0;
+							color: colors.$light-purple;
 						}
 						.carousel-text {
-							line-height: 1.6;
+							line-height: 1.5;
+							// font-size: 110%;
 						}
 					}
 				}
+			}
+		}
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 3%;
+			.dots {
+				.dot {
+					cursor: pointer;
+					height: 15px;
+					width: 15px;
+					margin: 0 2px;
+					background-color: white;
+					border-radius: 50%;
+					display: inline-block;
+					transition: background-color 0.6s ease;
+					// .active,
+					&:hover {
+						background-color: colors.$pink;
+					}
+				}
+			}
+			.arrows {
+				.left {}
+				.right {}
 			}
 		}
 	}

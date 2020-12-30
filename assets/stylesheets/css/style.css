@@ -33,6 +33,12 @@
   overflow: hidden;
 }
 
+.container1 {
+  max-width: 90rem;
+  width: 94%;
+  margin: 0 auto;
+}
+
 .none {
   display: none;
 }
@@ -76,9 +82,14 @@
 .header .header-navbar .request-demo {
   display: none;
   border-radius: 50px;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   background-color: white;
   filter: drop-shadow(0px 5px 5px #edeff0);
+}
+.header .header-navbar .request-demo .purple-arrow {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 8px;
 }
 .header .header-navbar .hamburger {
   display: block;
@@ -201,7 +212,6 @@
   .header .header-navbar .request-demo {
     display: inline-block;
     border-radius: 50px;
-    padding: 1rem;
     background-color: white;
     filter: drop-shadow(0px 5px 5px #edeff0);
   }
@@ -270,6 +280,17 @@
   }
 }
 /* main-content */
+.purple-arrow {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.purple-arrow1 {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
 /* caption background */
 .caption-background {
   margin-bottom: 5rem;
@@ -414,6 +435,18 @@
   border-radius: 25px;
   padding: 5%;
 }
+.carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-avatar {
+  width: 50%;
+  align-self: start;
+}
+.carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-avatar .avatar {
+  width: 100%;
+  border-radius: 50px;
+}
+.carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-content {
+  padding: 4%;
+  align-self: start;
+}
 .carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-content .carousel-title {
   font-size: 200%;
   font-weight: bold;
@@ -421,11 +454,29 @@
 }
 .carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-content .carousel-job-title {
   padding: 1% 0;
+  color: #9C69E2;
 }
 .carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-content .carousel-text {
-  line-height: 1.6;
+  line-height: 1.5;
 }
-
+.carousel .carousel-primary .navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.carousel .carousel-primary .navigation .dots .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.carousel .carousel-primary .navigation .dots .dot:hover {
+  background-color: #F063B8;
+}
 @media screen and (min-width: 350px) {
   .caption-background .save-data-here .position-image {
     right: 0;

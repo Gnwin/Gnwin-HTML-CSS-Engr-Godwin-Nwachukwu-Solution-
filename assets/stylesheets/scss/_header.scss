@@ -42,12 +42,16 @@
 			}
 		}
 		.request-demo {
-			// display: inline-block;
 			display: none;
 			border-radius: 50px;
-			padding: 1rem;
+			padding: 1rem 1.5rem;
 			background-color: white;
 			filter: drop-shadow(0px 5px 5px functions.tint(colors.$light-blue-grey, 90%));
+			.purple-arrow {
+				width: 20px;
+				vertical-align: middle;
+				margin-left: 8px;
+			}
 		}
 		.hamburger {
 			display: block;
@@ -179,7 +183,6 @@
 			.request-demo {
 				display: inline-block;
 				border-radius: 50px;
-				padding: 1rem;
 				background-color: white;
 				filter: drop-shadow(0px 5px 5px functions.tint(colors.$light-blue-grey, 90%));
 			}
