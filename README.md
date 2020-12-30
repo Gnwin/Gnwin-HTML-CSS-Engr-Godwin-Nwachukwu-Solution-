@@ -37,15 +37,15 @@ To get a local copy up and running follow these simple example steps.
 - `git clone https://github.com/Gnwin/Godwin-Eraani-Next-Web-project.git`
 - if dart SASS SCSS is not installed on your global machine, follow the steps below;
 	- > `run npm install -g sass`
-- if you use homebrew(for mac users),
+- if you use homebrew (for mac users),
 	- > `run brew install sass/sass/sass`
-- And finally go to the clone project folder, run terminal in the root level and run:
+- And finally go to the cloned project folder, open terminal in the root level and run:
 	- > `npm install to get the node modules folder`
 
 ### Usage
 
 > Clone the repo.
-> Open the index.html from your browser to view or run live serever extension in your text editor
+> Open the index.html from your browser to view or run live server extension in your text editor
 
 ### Run tests
 
@@ -59,7 +59,7 @@ pip install --user html5validator
 html5validator index.html
 ```
 
-## Authors
+## Author
 
 👤 **Godwin Nwachukwu**
 
