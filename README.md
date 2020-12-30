@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Browser
+- Chrome Browser
 - Text editor of your choice.
 - npm has to be installed in your system.
 - install the following linters on your IDE;
@@ -46,6 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 > Clone the repo.
 > Open the index.html from your browser to view or run live server extension in your text editor
+> Use Chrome as your browser to view this project
 
 ### Run tests
 
