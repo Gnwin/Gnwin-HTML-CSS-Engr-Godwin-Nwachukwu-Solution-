@@ -5,7 +5,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
 
-![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
+![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2016-01-38.png)
 
 ![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
 
