@@ -374,6 +374,7 @@
 .features .featured .features-grid .feature .feature-content .text {
   margin: 0.7rem 0;
 }
+/* carousel */
 @media screen and (min-width: 350px) {
   .caption-background .save-data-here .position-image {
     right: 0;
