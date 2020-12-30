@@ -3,15 +3,13 @@
 
 > This is my solution to the mini test Project
 
-![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
-
-![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2016-01-38.png)
-
-![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
-
-![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
-
 ![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png) ![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2016-01-38.png)
+
+![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
+
+![screenshot](https://raw.githubusercontent.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/assets/images/Screenshot%20from%202020-12-30%2015-49-09.png)
+
+
 
 > This project clones the project at (https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-%26-CSS-Engineer-Mini-Project?node-id=0%3A1)
 
