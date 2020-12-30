@@ -32,6 +32,10 @@
 
 [Live Demo Link](https://raw.githack.com/Gnwin/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/solution/index.html)
 
+or
+
+[Live Demo Link](https://gnwin.github.io/Gnwin-HTML-CSS-Engr-Godwin-Nwachukwu-Solution-/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
