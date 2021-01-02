@@ -15,10 +15,6 @@ navicon.addEventListener('click', function(){
 let slides = document.getElementById('carousel-inner');
 let dots = document.querySelectorAll('.dot');
 
-console.log(slides.childNodes);
-console.log(slides.children);
-console.log(dots);
-
 var num = 0;
 dots[num].classList.add('active');
 
@@ -58,7 +54,6 @@ function slideOne(){
 	dots[num].classList.add('active');
 	slides.insertBefore(remove, slides.childNodes[0]);
 };
-
 
 
 // arr = [1,2,3,4];
