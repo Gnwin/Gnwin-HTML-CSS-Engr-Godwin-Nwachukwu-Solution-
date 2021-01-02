@@ -187,51 +187,60 @@
 					<h1 class="carousel-heading">Testimonials</h1>
 
 					<div class="carousel-outer">
-						<div class="carousel-inner">
+						<div class="carousel-inner" id="carousel-inner">
 
-							<div class="slide one">
-								<div class="carousel-avatar">
-									<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
+								<div class="slide one">
+									<div class="carousel-avatar">
+										<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
+									</div>
+									<div class="carousel-content">
+										<h2 class="carousel-title">Godwin Nwachukwu</h2>
+										<p class="carousel-job-title">Software Engr, ClickUp</p>
+										<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
+									</div>
 								</div>
-								<div class="carousel-content">
-									<h2 class="carousel-title">Godwin Nwachukwu</h2>
-									<p class="carousel-job-title">Software Engr, ClickUp</p>
-									<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
+
+								<div class="slide two">
+									<div class="carousel-avatar">
+										<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
+									</div>
+									<div class="carousel-content">
+										<h2 class="carousel-title">John Fang</h2>
+										<p class="carousel-job-title">wordfaang.com</p>
+										<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
+									</div>
 								</div>
-							</div>
+
+								<div class="slide three">
+									<div class="carousel-avatar">
+										<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
+									</div>
+									<div class="carousel-content">
+										<h2 class="carousel-title">Jeny Doe</h2>
+										<p class="carousel-job-title">UX Engineer</p>
+										<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
+									</div>
+								</div>
+
+								<div class="slide four">
+									<div class="carousel-avatar">
+										<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
+									</div>
+									<div class="carousel-content">
+										<h2 class="carousel-title">Matthew Henry</h2>
+										<p class="carousel-job-title">matthewhenry.com</p>
+										<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
+									</div>
+								</div>
+
+								<!-- if (num === dots.length ) {
+									// dots[num].classList.remove('active');
+									dots[0].classList.add('active');
+									slides.appendChild(remove);
+									num = 0;
+									return;
+								} -->
 	
-							<div class="slide two">
-								<div class="carousel-avatar">
-									<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
-								</div>
-								<div class="carousel-content">
-									<h2 class="carousel-title">John Fang</h2>
-									<p class="carousel-job-title">wordfaang.com</p>
-									<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
-								</div>
-							</div>
-	
-							<div class="slide three">
-								<div class="carousel-avatar">
-									<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
-								</div>
-								<div class="carousel-content">
-									<h2 class="carousel-title">Jeny Doe</h2>
-									<p class="carousel-job-title">UX Engineer</p>
-									<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
-								</div>
-							</div>
-	
-							<div class="slide four">
-								<div class="carousel-avatar">
-									<img src="./assets/images/SJGKVE5UNVESVCW7BBOHKQCZVE.webp" alt="avatar" class="avatar">
-								</div>
-								<div class="carousel-content">
-									<h2 class="carousel-title">John Fang</h2>
-									<p class="carousel-job-title">wordfaang.com</p>
-									<p class="carousel-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam? Nostrum corporis nobis impedit eligendi!</p>
-								</div>
-							</div>
 
 						</div>
 					</div>
@@ -245,7 +254,7 @@
 						</div>
 						<div class="arrows">
 							<span class="left"><img src="./assets/images/Group 57.png" alt="" class="purple-arrow1 arrow-left"></span>
-							<span class="right"><img src="./assets/images/Group 56 (1).png" alt="" class="purple-arrow1 arrow-right"></span>
+							<span class="right" onclick="slide();"><img src="./assets/images/Group 56 (1).png" alt="" class="purple-arrow1 arrow-right"></span>
 						</div>
 					</div>
 

@@ -462,7 +462,6 @@
   margin-top: 3%;
 }
 .carousel-res-primary .navigation-res .dots-res .dot-res {
-  display: block;
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -555,6 +554,9 @@
   transition: background-color 0.6s ease;
 }
 .carousel .carousel-primary .navigation .dots .dot:hover {
+  background-color: #F063B8;
+}
+.carousel .carousel-primary .navigation .dots .active {
   background-color: #F063B8;
 }
 @media screen and (min-width: 350px) {
