@@ -82,7 +82,7 @@ for (let e = 0; e < dots.length; e++){
 }
 
 
-// Algorithim 
+// Algorithm 
 
 // arr = [1,2,3,4];
 // function slide(arr){
