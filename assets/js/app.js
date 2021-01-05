@@ -1,3 +1,5 @@
+// hamburger button at max-width of 767px.
+
 let dropdownState = false;
 let navicon = document.getElementById('nav-icon1');
 let dropdown = document.querySelector('.hamburger-dropdown');
@@ -11,16 +13,16 @@ navicon.addEventListener('click', function(){
 	dropdownState = !dropdownState;
 })
 
+// Carousel
 
 let slides = document.getElementById('carousel-inner');
 let dots = document.querySelectorAll('.dot');
-
+var remove;
 var num = 0;
 dots[num].classList.add('active');
 
-var remove;
-
-function slide(n){
+	// arrow right
+function slideForward(n){
 	remove = slides.removeChild(slides.children[n]);
 	for (let i = 0; i < dots.length; i++){
 		dots[i].classList.remove('active');
@@ -36,8 +38,8 @@ function slide(n){
 	slides.appendChild(remove);
 };
 
-
-function slideOne(){
+	// arrow left
+function slideBackward(){
 	if (num === 0){
 		dots[num].classList.remove('active');
 		dots[dots.length-1].classList.add('active');
@@ -46,14 +48,38 @@ function slideOne(){
 		num = dots.length-1;
 		return;
 	}
-	num--
+	num--;
 	for (let i = 0; i < dots.length; i++){
 		dots[i].classList.remove('active');
 	}
 	remove = slides.removeChild(slides.children[slides.children.length - 1]);
 	dots[num].classList.add('active');
 	slides.insertBefore(remove, slides.childNodes[0]);
-};
+}
+
+	// make dots functional
+for (let e = 0; e < dots.length; e++){
+	dots[e].addEventListener('click', function(){
+		let state = Number(slides.children[0].firstElementChild.firstElementChild.innerHTML);
+		state--;
+		num = e;
+		for (let i = 0; i < dots.length; i++){
+			dots[i].classList.remove('active');
+		}
+		if (num > state){
+			for (let i = 0; i < num-state; i++) {
+				num--;
+				slideForward(0);
+			}
+		} else {
+			for (let i = 0; i < state-num; i++) {
+				num++;
+				slideBackward();
+			}
+		}
+
+	})
+}
 
 
 // arr = [1,2,3,4];

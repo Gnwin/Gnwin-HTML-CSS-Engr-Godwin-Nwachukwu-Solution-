@@ -518,6 +518,13 @@
 .carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-avatar {
   width: 50%;
   align-self: start;
+  position: relative;
+}
+.carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-avatar .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
 .carousel .carousel-primary .carousel-outer .carousel-inner .slide .carousel-avatar .avatar {
   width: 100%;

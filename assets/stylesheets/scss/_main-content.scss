@@ -271,6 +271,13 @@
 					.carousel-avatar {
 						width: 50%;
 						align-self: start;
+						position: relative;
+						.label {
+							position: absolute;
+							top: 0;
+							left: 0;
+							display: none;
+						}
 						.avatar {
 							width: 100%;
 							border-radius: 50px;
