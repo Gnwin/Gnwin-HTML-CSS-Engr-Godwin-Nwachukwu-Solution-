@@ -5,7 +5,7 @@
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
 		"csstree/validator": true,
-		"ignore" : ["colors.", "functions.", "typography."]
+		"ignoreValue" : ["^colors.$", "^functions.$", "^typography.$"]
   },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
