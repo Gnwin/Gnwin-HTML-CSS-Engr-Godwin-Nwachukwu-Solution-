@@ -13,7 +13,7 @@ navicon.addEventListener('click', function(){
 	dropdownState = !dropdownState;
 })
 
-// Carousel
+// Carousel at min-width of 768px
 
 let slides = document.getElementById('carousel-inner');
 let dots = document.querySelectorAll('.dot');
@@ -81,6 +81,8 @@ for (let e = 0; e < dots.length; e++){
 	})
 }
 
+
+// Algorithim 
 
 // arr = [1,2,3,4];
 // function slide(arr){
