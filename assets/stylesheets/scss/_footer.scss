@@ -4,265 +4,302 @@
 
 /* footer */
 
-
 .border-top {
-	border-top: 1px solid colors.$light-purple;
+  border-top: 1px solid colors.$light-purple;
 }
 
 .footer {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
-	.try {
-		margin: 5rem 0;
-		.try-free {
-			margin-bottom: 1.5rem;
-			.try-head {
-				font-size: 1.6rem;
-				margin-bottom: 1rem;
-				font-weight: bold;
-				text-align: center;
-			}
-			.try-text {
-				text-align: center;
-			}
-		}
-		.learn-request {
-			display: grid;
-			gap: 1.5rem;
-			width: 60%;
-			margin: 0 auto;
-			.learn {
-				border-radius: 50px;
-				padding: 1rem;
-				background-color: colors.$pink;
-				color: white;
-				display: block;
-				width: 100%;
-			}
-			.request {
-				border-radius: 50px;
-				padding: 1rem;
-				background-color: #ffffff;
-				filter: drop-shadow(0px 5px 5px functions.tint(colors.$light-blue-grey, 90%));
-				display: block;
-				width: 100%;
-			}
-		}
-	}
-	
-	.data-warehouse {
-		display: grid;
-		gap: 1.5rem;
-		.warehouse-grid {
-			// justify-self: center;
-			.warehouse-heading {
-				display: flex;
-				align-items: center;
-				margin-bottom: 3rem;
-				.logo-container {
-					width: 3rem;
-					display: block;
-					.logo {
-						width: 100%;
-					}
-				}
-				.logo-head {
-					font-weight: bold;
-					margin-left: 1rem;
-					font-size: 1.05rem;
-				}
-			}
-			.address {
-				margin-bottom: 1.3rem;
-				.warehouse-address {
-					font-weight: bold;
-					line-height: 1.7;
-				}
-			}
-			.contact {
-				.email {
-					margin-bottom: 0.5rem;
-				}
-			}
-			.warehouse-h1 {
-				font-weight: bold;
-				margin: 0.8rem 0 2.5rem 0;
-			}
-			.warehouse-ul {
-				.warehouse-li {
-					margin-bottom: 1.4rem;
-				}
-			}
-			.social-media {
-				.social-media-li {
-					display: inline-block;
-					.social-media-li:nth-of-type(2) {
-						margin: 0 0.7rem;
-					}
-				}
-			}
-		}
-	}
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  .try {
+    margin: 5rem 0;
+
+    .try-free {
+      margin-bottom: 1.5rem;
+
+      .try-head {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .try-text {
+        text-align: center;
+      }
+    }
+
+    .learn-request {
+      display: grid;
+      gap: 1.5rem;
+      width: 60%;
+      margin: 0 auto;
+
+      .learn {
+        border-radius: 50px;
+        padding: 1rem;
+        background-color: colors.$pink;
+        color: white;
+        display: block;
+        width: 100%;
+      }
+
+      .request {
+        border-radius: 50px;
+        padding: 1rem;
+        background-color: #fff;
+        filter: drop-shadow(0 5px 5px functions.tint(colors.$light-blue-grey, 90%));
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .data-warehouse {
+    display: grid;
+    gap: 1.5rem;
+
+    .warehouse-grid {
+      // justify-self: center;
+      .warehouse-heading {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+
+        .logo-container {
+          width: 3rem;
+          display: block;
+
+          .logo {
+            width: 100%;
+          }
+        }
+
+        .logo-head {
+          font-weight: bold;
+          margin-left: 1rem;
+          font-size: 1.05rem;
+        }
+      }
+
+      .address {
+        margin-bottom: 1.3rem;
+
+        .warehouse-address {
+          font-weight: bold;
+          line-height: 1.7;
+        }
+      }
+
+      .contact {
+        .email {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      .warehouse-h1 {
+        font-weight: bold;
+        margin: 0.8rem 0 2.5rem 0;
+      }
+
+      .warehouse-ul {
+        .warehouse-li {
+          margin-bottom: 1.4rem;
+        }
+      }
+
+      .social-media {
+        .social-media-li {
+          display: inline-block;
+
+          .social-media-li:nth-of-type(2) {
+            margin: 0 0.7rem;
+          }
+        }
+      }
+    }
+  }
 }
 
-
 @media screen and (min-width: 350px) {
-	.footer {
-		.try {
-			.try-free {
-				.try-head {
-					// font-size: 3rem;
-				}
-				.try-text {
-		
-				}
-			}
-			.learn-request {
-				// width: unset;
-				// margin: initial;
-				grid-template-columns: repeat(2, 1fr);
-				.learn {
-					border-radius: 50px;
-					padding: 1rem;
-					background-color: colors.$pink;
-					color: white;
-				}
-				.request {
-					border-radius: 50px;
-					padding: 1rem;
-					background-color: white;
-				}
-			}
-		}
-	}
+  .footer {
+    .try {
+      .try-free {
+        .try-head {
+          // font-size: 3rem;
+        }
+
+        .try-text {
+
+        }
+      }
+
+      .learn-request {
+        // width: unset;
+        // margin: initial;
+        grid-template-columns: repeat(2, 1fr);
+
+        .learn {
+          border-radius: 50px;
+          padding: 1rem;
+          background-color: colors.$pink;
+          color: white;
+        }
+
+        .request {
+          border-radius: 50px;
+          padding: 1rem;
+          background-color: white;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 576px) {
-	.footer {
-		.try {
-			.try-free {
-				.try-head {
-					// font-size: 3rem;
-				}
-				.try-text {
-		
-				}
-			}
-			.learn-request {
-				// width: unset;
-				// margin: none;
-				.learn {
-					border-radius: 50px;
-					padding: 1rem;
-					background-color: colors.$pink;
-					color: white;
-				}
-				.request {
-					border-radius: 50px;
-					padding: 1rem;
-					background-color: white;
-				}
-			}
-		}
-	
-		.data-warehouse {
-			// display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			// gap: 1.5rem;
-			.warehouse-grid {
-				// justify-self: center;
-				.warehouse-heading {
-					.logo {}
-				}
-				.address {
-					.warehouse-address {
-						font-weight: bold;
-					}
-				}
-				.contact {}
-				.warehouse-h1 {
-					font-weight: bold;
-				}
-				.warehouse-ul {
-					.warehouse-li {}
-				}
-				.social-media {
-					.social-media-li {
-						display: inline-block;
-						.social-media-li:nth-of-type(2) {
-							margin: 0 0.7rem;
-						}
-					}
-				}
-			}
-		}
-	}
-	
+  .footer {
+    .try {
+      .try-free {
+        .try-head {
+          // font-size: 3rem;
+        }
+
+        .try-text {
+
+        }
+      }
+
+      .learn-request {
+        // width: unset;
+        // margin: none;
+        .learn {
+          border-radius: 50px;
+          padding: 1rem;
+          background-color: colors.$pink;
+          color: white;
+        }
+
+        .request {
+          border-radius: 50px;
+          padding: 1rem;
+          background-color: white;
+        }
+      }
+    }
+
+    .data-warehouse {
+      // display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      // gap: 1.5rem;
+      .warehouse-grid {
+        // justify-self: center;
+        .warehouse-heading {
+          .logo {}
+        }
+
+        .address {
+          .warehouse-address {
+            font-weight: bold;
+          }
+        }
+        .contact {}
+
+        .warehouse-h1 {
+          font-weight: bold;
+        }
+
+        .warehouse-ul {
+          .warehouse-li {}
+        }
+
+        .social-media {
+          .social-media-li {
+            display: inline-block;
+
+            .social-media-li:nth-of-type(2) {
+              margin: 0 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
-	.footer {
-		.try {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			.try-free {
-				margin-bottom: 0;
-				.try-head {
-					text-align: left;
-				}
-				.try-text {
-		
-				}
-			}
-			.learn-request {
-				width: unset;
-				margin: 0;
-				.learn {
-					border-radius: 50px;
-					padding: 0.7rem 1rem;
-					background-color: colors.$pink;
-					color: white;
-				}
-				.request {
-					border-radius: 50px;
-					padding: 0.7rem 1rem;
-					background-color: white;
-				}
-			}
-		}
-	
-		.data-warehouse {
-			// display: grid;
-			grid-template-columns: 4fr repeat(2, 2fr) 1.5fr;
-			// gap: 1.5rem;
-			.warehouse-grid {
-				// justify-self: center;
-				.warehouse-heading {
-					.logo {}
-				}
-				.address {
-					.warehouse-address {
-						font-weight: bold;
-					}
-				}
-				.contact {}
-				.warehouse-h1 {
-					font-weight: bold;
-				}
-				.warehouse-ul {
-					.warehouse-li {}
-				}
-				.social-media {
-					.social-media-li {
-						display: inline-block;
-						.social-media-li:nth-of-type(2) {
-							margin: 0 0.7rem;
-						}
-					}
-				}
-			}
-		}
-	}
-}
+  .footer {
+    .try {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
+      .try-free {
+        margin-bottom: 0;
+
+        .try-head {
+          text-align: left;
+        }
+
+        .try-text {
+
+        }
+      }
+
+      .learn-request {
+        width: unset;
+        margin: 0;
+
+        .learn {
+          border-radius: 50px;
+          padding: 0.7rem 1rem;
+          background-color: colors.$pink;
+          color: white;
+        }
+
+        .request {
+          border-radius: 50px;
+          padding: 0.7rem 1rem;
+          background-color: white;
+        }
+      }
+    }
+
+    .data-warehouse {
+      // display: grid;
+      grid-template-columns: 4fr repeat(2, 2fr) 1.5fr;
+      // gap: 1.5rem;
+      .warehouse-grid {
+        // justify-self: center;
+        .warehouse-heading {
+          .logo {}
+        }
+
+        .address {
+          .warehouse-address {
+            font-weight: bold;
+          }
+        }
+        .contact {}
+
+        .warehouse-h1 {
+          font-weight: bold;
+        }
+
+        .warehouse-ul {
+          .warehouse-li {}
+        }
+
+        .social-media {
+          .social-media-li {
+            display: inline-block;
+
+            .social-media-li:nth-of-type(2) {
+              margin: 0 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

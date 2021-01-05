@@ -22,7 +22,7 @@
 
 .body {
   position: relative;
-	background-image: linear-gradient(180deg, functions.tint(colors.$cyan, 94%) 1%, white 99%);
+  background-image: linear-gradient(180deg, functions.tint(colors.$cyan, 94%) 1%, white 99%);
 }
 
 .offscreen {
@@ -37,15 +37,15 @@
 }
 
 .container {
-	max-width: 90rem;
-	width: 94%;
-	margin: 0 auto;
-	overflow-x: hidden;
+  max-width: 90rem;
+  width: 94%;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .container1 {
-	max-width: 90rem;
-	width: 94%;
-	margin: 0 auto;
-	// overflow-x: hidden;
+  max-width: 90rem;
+  width: 94%;
+  margin: 0 auto;
+  // overflow-x: hidden;
 }
