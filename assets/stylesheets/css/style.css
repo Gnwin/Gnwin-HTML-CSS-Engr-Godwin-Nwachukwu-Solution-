@@ -177,106 +177,15 @@
   font-weight: bold;
 }
 
-@media screen and (min-width: 576px) {
-  .header {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .header .header-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header .header-navbar .navbar {
-    display: flex;
-    align-items: center;
-  }
-  .header .header-navbar .navbar .logo-container {
-    width: 2rem;
-  }
-  .header .header-navbar .navbar .logo-container .logo {
-    width: 100%;
-  }
+@media screen and (min-width: 600px) {
   .header .header-navbar .navbar .nav-ul {
     display: block;
-    margin-left: 5rem;
-  }
-  .header .header-navbar .navbar .nav-ul .nav-li {
-    display: inline-block;
-    padding: 0 1.3rem;
-    text-align: center;
-  }
-  .header .header-navbar .navbar .nav-ul .nav-li .active {
-    font-weight: bold;
   }
   .header .header-navbar .request-demo {
     display: inline-block;
-    border-radius: 50px;
-    background-color: white;
-    filter: drop-shadow(0 5px 5px #edeff0);
   }
   .header .header-navbar .hamburger {
     display: none;
-    /* Icon 1 */
-  }
-  .header .header-navbar .hamburger #nav-icon1 {
-    width: 30px;
-    height: 22px;
-    position: relative;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-  }
-  .header .header-navbar .hamburger #nav-icon1 span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: #f063b8;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
-  }
-  .header .header-navbar .hamburger #nav-icon1 span:nth-child(1) {
-    top: 0;
-  }
-  .header .header-navbar .hamburger #nav-icon1 span:nth-child(2) {
-    top: 9px;
-  }
-  .header .header-navbar .hamburger #nav-icon1 span:nth-child(3) {
-    top: 18px;
-  }
-  .header .header-navbar .hamburger #nav-icon1.open span:nth-child(1) {
-    top: 10px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
-  }
-  .header .header-navbar .hamburger #nav-icon1.open span:nth-child(2) {
-    opacity: 0;
-    left: -40px;
-  }
-  .header .header-navbar .hamburger #nav-icon1.open span:nth-child(3) {
-    top: 18px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
-    transform: rotate(-135deg);
   }
 }
 /* main-content */
