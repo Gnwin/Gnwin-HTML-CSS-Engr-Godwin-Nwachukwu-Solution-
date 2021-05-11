@@ -1,0 +1,19 @@
+{
+  "name": "html-css-engr-godwin-nwachukwu-test-solution",
+  "version": "1.0.0",
+  "description": "This is a click-up mini project test solution",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./assets/stylesheets/scss/style.scss:./assets/stylesheets/css/style.css  --style expanded"
+  },
+  "author": "Godwin Nwachukwu",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "sass": "^1.30.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.18.0"
+  }
+}
